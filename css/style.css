@@ -1,0 +1,15 @@
+.yellow {
+    color: yellow;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box>div>p {
+    color: red;
+}
+
+:nth-child(7) {
+    color: green;
+}
