@@ -13,3 +13,42 @@
 :nth-child(7) {
     color: green;
 }
+
+th:hover{
+    background-color: #ffbebd;
+    color: #fcfcfa;
+}
+
+td:hover {
+    background-color: #1a405f;
+    color: #fcfcfa;
+}
+
+.days,
+.lessons{
+    text-decoration: none;
+}
+
+.days:link,
+.lessons:link{
+    color: #fcfcfa;
+}
+.days:visited,
+.lessons:visited{
+    color: #fcfcfa;
+}
+
+td:first-child {
+    background-color: rgb(37, 183, 202);
+}
+td:last-child {
+    background-color: rgb(37, 183, 202);
+}
+
+th:nth-child(even) {
+    background-color: #10b8aa;
+}
+
+td:nth-child(3) {
+    background-color: #e44b0f;
+}
